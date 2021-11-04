@@ -6,7 +6,7 @@
 #    By: besellem <besellem@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/04 16:50:48 by besellem          #+#    #+#              #
-#    Updated: 2021/11/04 17:05:27 by besellem         ###   ########.fr        #
+#    Updated: 2021/11/04 20:23:56 by besellem         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,7 +39,7 @@ clean:
 
 fclean:		clean
 			@echo "Deleting $(CYAN)$(NAME)'s $(CLR_COLOR)binary ..."
-			@rm -f $(NAME)
+			@rm -f $(NAME) Grace_kid.c
 
 re:			fclean all
 
